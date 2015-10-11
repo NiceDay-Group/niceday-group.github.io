@@ -1,0 +1,138 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* end reset browser styles */
+html {
+	height: 100%;
+	font-size: 16px;
+}
+.b-page {
+	display: block;
+	height: 100%;
+	width: 100%;
+	/*margin: 0;*/
+	font-family:roboto medium;
+}
+
+.b-page__menu {
+	position: fixed;
+	height: 9.10569%;/*работает! Задали html{height:100%;}*/
+	background-color: #0088ff;
+	display: block;
+	width: 100%;/*68.7962%*/
+	min-height: 47px;
+	box-shadow: 		0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+   -moz-box-shadow: 	0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+   -webkit-box-shadow: 	0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	box-sizing: border-box;
+}
+
+.b-menu__link {
+	text-decoration: none;
+	display: inline-block;
+	height: 100%;
+	padding: 0 5% 0 5%;
+	text-align: center;
+	font-size: 0.8em;
+	box-sizing: border-box;
+}
+.b-menu__link:before {
+	content: "";
+ 	display: inline-block;
+  	min-height: inherit;
+  	height: 100%;
+  	vertical-align: middle
+}
+
+.b-link__active {
+	border-bottom: 3px solid #fff;
+	color: #fff;
+}
+
+.b-menu__icon{
+	height: 16px;
+	width: 16px;
+	float: right;
+	fill:#fff;
+	padding: 20px 3.4375% 20px 0;
+}
+.b-page__pay {
+	box-sizing:border-box;
+	height: 49.75609%;
+	width: 100%;
+	max-width: 100%;
+	background-color: #0088ff;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+}
+.b-pay__div {
+	/*display: block;
+	/*padding-top: 184.5px;*/
+	margin: auto;
+	overflow: auto;
+	position: absolute;
+	height: 49.75609%;
+	min-width: 100px;
+	min-height: 100px;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+.b-pay__icon {
+	width: 15.417%;
+	height: auto;
+}
+
+.b-page__news {
+	display: block;
+	height: 112px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #000;
+	background-color: #fff;
+}
+
+h1 {
+	padding-top: 2.8125%;
+	margin-left: 2.8125%;
+	margin-right: 4.62%;
+}
